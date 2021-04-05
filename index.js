@@ -13,10 +13,9 @@ function getCharacters() {
     .then(res => res.json())
     .then(data => {
         console.log(data)
-        data.forEach(character => {
-            return ul.innerHTML += `
-
-            `
+        data.characters.forEach(character => {
+            ul.innerHTML += 
+            `<li>${character.name}</li>`
         })
     })
 }
