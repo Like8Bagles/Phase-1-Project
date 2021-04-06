@@ -2,21 +2,37 @@ html {
     height: 100%;
     width: 100%;
     font-family: "Titillium Web", sans-serif;
-  }
-  
-  
-  #title {
+}
 
-  }
+@font-face {
+    font-family: 'ninja_narutoregular';
+    src: url('njnaruto-webfont.woff2') format('woff2'),
+         url('njnaruto-webfont.woff') format('woff'),
+         url('njnaruto-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
   h1 {
-      font-size: 50px;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      text-shadow: 4px 4px #000000;
-      color: #ffffff
+    font-family: "ninja_narutoregular", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-text-stroke: #000000;
+    color: #ffffff
+  }
+
+  h2 {
+    font-family: "ninja_narutoregular", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
   }
   
   body {
@@ -28,6 +44,7 @@ html {
   button {
     font-size: 7px;
   }
+  
   
   #main-content {
     position: relative;
@@ -41,13 +58,19 @@ html {
     border-radius: 5px;
     box-shadow: 2px 5px 5px #333;
   }
+
+
   
   #list {
+    font-size: 18px;
+    columns: 4;
+    column-gap: 50px;
     margin: 10px;
     border: 1px solid #333;
     background: rgba(255, 255, 255, 0.75);
     padding: 15px 20px 18px 18px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 2px 5px 5px #333;
   }
-  
+
+
