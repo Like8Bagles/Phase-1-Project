@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: "Titillium Web", sans-serif;
+  }
+  
+  
+  #title {
+
+  }
+  h1 {
+      font-size: 50px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-shadow: 4px 4px #000000;
+      color: #ffffff
+  }
+  
+  body {
+    min-height: 100%;
+    min-width: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(232,170,44,1) 23%, rgba(6,34,110,1) 50%, rgba(190,189,27,1) 78%, rgba(255,255,255,1) 100%);
+  }
+  
+  button {
+    font-size: 7px;
+  }
+  
+  #main-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #333;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 15px 20px 18px 18px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px #333;
+  }
+  
+  #list {
+    margin: 10px;
+    border: 1px solid #333;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 15px 20px 18px 18px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px #333;
+  }
+  
